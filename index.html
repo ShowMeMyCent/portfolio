@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    
+    <meta name="description" content="Portfolio website showcasing my work and skills" />
+    <title>Your Portfolio</title>
+    <link href="../src/output.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/1df0f1098c.js" crossorigin="anonymous"></script>
+    <!-- Alternative Font Awesome CDN (if kit fails) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center bg-gradient-to-br from-blue-50 to-indigo-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div class="text-center">
+          <div class="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden">
+            <img data-src="Profile.jpg" alt="Profile Photo" class="w-full h-full object-cover object-bottom">
+          </div>
+          <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+            Hi, I'm <span class="text-blue-600">Wildan</span>
+          </h1>
+          <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
+            An Electrical Engineering Student and Web Developer with a passion for creating innovative solutions.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#projects" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+              View My Work
+            </a>
+            <a href="#contact" class="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors font-medium">
+              Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Me🔥</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Learn more about my background, experience, and what drives my passion for development
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <div class="w-full h-80 bg-gray-300 rounded-lg flex items-center justify-center mb-6">
+              <img data-src="AboutMe.jpg" alt="Profile Photo" class="w-full h-full object-cover rounded-lg">
+            </div>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">My Story😏</h3>
+            <p class="text-gray-700 mb-6 leading-relaxed">
+              I'm a dedicated web developer with a passion for creating innovative solutions. With several years of experience 
+              in web development, I specialize in building responsive, user-friendly applications that solve real-world problems.
+            </p>
+            <p class="text-gray-700 mb-8 leading-relaxed">
+              I'm always eager to learn and grow as a developer, and I enjoy taking on new challenges that push my limits.
+            </p>
+            <p class="text-gray-700 mb-8 leading-relaxed">
+              I'm currently pursuing a bachelor's degree in Electrical Engineering (EE), which complements my technical skills and enhances my problem-solving abilities.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-map-pin fa-lg text-blue-600"></i>
+                <span class="text-gray-700">Bandung, Indonesia</span>
+              </div>
+              <div class="flex items-center gap-2 ">
+                <i class="fa-solid fa-envelope fa-lg text-blue-600"></i>
+                <span class="text-gray-700">wildankh01@outlook.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- Education Section -->
+        <div class="mt-20">
+          <div class="text-center mb-12">
+            <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Education🎓</h3>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+              My academic journey and qualifications
+            </p>
+          </div>
+
+          <div class="max-w-4xl mx-auto">
+            <div class="space-y-8">
+              <!-- Education Item 1 -->
+              <div class="bg-gray-50 rounded-lg p-6 border-l-4 border-blue-600">
+                <div class="flex flex-col items-center md:flex-row md:items-center justify-between mb-4">
+                  <div class="flex flex-col items-center md:flex-row md:items-center gap-4 mb-4">
+                  <div>
+                    <img data-src="telkom.png" alt="University Logo" class="w-16 h-16 object-contain">
+                  </div>
+                  <div>
+                    <h4 class="text-xl font-bold text-gray-900">Bachelor of Electrical Engineering</h4>
+                    <p class="text-blue-600 font-semibold text-center md:text-left">Telkom University</p>
+                  </div>
+                  </div>
+                  <div class="text-gray-600 mt-2 md:mt-0">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    2024 - Present
+                  </div>
+                </div>
+                <p class="text-gray-700 mb-3">
+                  Currently pursuing a bachelor's degree in Electrical Engineering, IoT, 
+                  electronics, and control systems. This program enhances my analytical thinking and 
+                  problem-solving skills, which I apply to web development projects.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Circuit Analysis</span>
+                  <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Digital Systems</span>
+                  <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Programming</span>
+                  <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Mathematics</span>
+                  <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Physics</span>
+                </div>
+              </div>
+
+              <!-- Education Item 2 -->
+              <div class="bg-gray-50 rounded-lg p-6 border-l-4 border-green-600">
+                <div class="flex flex-col items-center md:flex-row md:items-center justify-between mb-4">
+                  <div class="flex flex-col items-center md:flex-row md:items-center gap-4 mb-4">
+                    <div>
+                      <img data-src="smk.png" alt="University Logo" class="w-16 h-16 object-contain">
+                    </div>
+                    <div>
+                      <h4 class="text-xl font-bold text-gray-900">High School Diploma</h4>
+                      <p class="text-green-600 text-center md:text-left font-semibold">SMK Al-Amanah Tangsel</p>
+                    </div>
+                    </div>
+                    <div class="text-gray-600 mt-2 md:mt-0">
+                      <i class="fas fa-calendar-alt mr-2"></i>
+                      2023 - 2024
+                  </div>
+                </div>
+                <p class="text-gray-700 mb-3">
+                  Graduated with focus on Software Development. Developed strong analytical skills 
+                  and discovered passion for technology and problem-solving.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Mathematics</span>
+                  <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Programming</span>
+                  <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Web Development</span>
+                  <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Computer Science</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50 ">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Skills & Technologies🤖</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Here are the technologies and tools I work with to bring ideas to life
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <!-- Frontend -->
+          <div class="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <i class="fa-brands fa-laravel fa-2xl text-orange-600"></i>
+            </div>
+            <h3 class="font-semibold text-gray-900 mb-2">PHP/Laravel</h3>
+            <p class="text-sm text-gray-600">Server-side web development</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <i class="fa-brands fa-flutter fa-2xl text-cyan-400"></i>
+            </div>
+            <h3 class="font-semibold text-gray-900 mb-2">Flutter</h3>
+            <p class="text-sm text-gray-600">Mobile app development</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <i class="fab fa-figma fa-2xl text-blue-600"></i>
+            </div>
+            <h3 class="font-semibold text-gray-900 mb-2">Figma</h3>
+            <p class="text-sm text-gray-600">UI/UX design tool</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-wind fa-2xl text-purple-600"></i>
+            </div>
+            <h3 class="font-semibold text-gray-900 mb-2">Tailwind CSS</h3>
+            <p class="text-sm text-gray-600">Utility-first CSS framework</p>
+          </div>
+
+          <!-- Backend -->
+          <div class="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <i class="fab fa-golang fa-2xl text-blue-500"></i>
+            </div>
+            <h3 class="font-semibold text-gray-900 mb-2">Golang</h3>
+            <p class="text-sm text-gray-600">Restful APIs</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-database fa-2xl text-red-600"></i>
+            </div>
+            <h3 class="font-semibold text-gray-900 mb-2">MySQL</h3>
+            <p class="text-sm text-gray-600">Relational database</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <i class="fab fa-git-alt fa-2xl text-indigo-600"></i>
+            </div>
+            <h3 class="font-semibold text-gray-900 mb-2">Git</h3>
+            <p class="text-sm text-gray-600">Version control</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <i class="fa-solid fa-microchip fa-2xl text-gray-600"></i>
+            </div>
+            <h3 class="font-semibold text-gray-900 mb-2">IoT</h3>
+            <p class="text-sm text-gray-600">Internet of Things</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- Experience & Organizations Section -->
+    <section id="experience" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Experience & Organizations🗣️</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            My professional journey and organizational involvement
+          </p>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="mb-16">
+          <h3 class="text-2xl font-bold text-gray-900 text-center mb-12">Professional Experience</h3>
+          <div class="max-w-5xl mx-auto">
+            <div class="grid gap-8">
+              <!-- Experience Item 1 -->
+               <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                <div class="flex flex-col lg:flex-row gap-6">
+                  <div class="flex-shrink-0">
+                    <div class="w-20 h-20 bg-white rounded-xl flex items-center justify-center shadow-md">
+                      <img data-src="kalorize.png" alt="Tech Startup" class="w-12 h-12 object-contain">
+                    </div>
+                  </div>
+                  <div class="flex-grow">
+                    <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4">
+                      <div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-1">Full-Stack Developer Intern</h4>
+                        <p class="text-green-600 font-semibold text-lg mb-2">Kalorize</p>
+                        <div class="flex items-center text-gray-600 mb-3">
+                          <i class="fas fa-calendar-alt mr-2"></i>
+                          <span>Aug 2024 - Nov 2024 · 4 mos </span>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 leading-relaxed">
+                      Gained hands-on experience in full-stack web development at a fast-growing startup. 
+                      Collaborated with senior developers to build scalable web applications and learned industry best practices.
+                    </p>
+                    <div class="mb-4">
+                      <h5 class="font-semibold text-gray-900 mb-3">Key Contributions:</h5>
+                      <ul class="grid md:grid-cols-2 gap-2 text-gray-700">
+                        <li class="flex items-start gap-2">
+                          <i class="fas fa-check-circle text-green-600 mt-1"></i>
+                          <span>Developed a REST API using Echo framework</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                          <i class="fas fa-check-circle text-green-600 mt-1"></i>
+                          <span>Implemented more than 5 REST API endpoints</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                          <i class="fas fa-check-circle text-green-600 mt-1"></i>
+                          <span>Participated in Flutter app development</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                          <i class="fas fa-check-circle text-green-600 mt-1"></i>
+                          <span>Reduced code review cycles by 30%</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                      <span class="px-4 py-2 bg-green-100 text-green-800 text-sm rounded-full font-medium">Golang</span>
+                      <span class="px-4 py-2 bg-green-100 text-green-800 text-sm rounded-full font-medium">Flutter</span>
+                      <span class="px-4 py-2 bg-green-100 text-green-800 text-sm rounded-full font-medium">Echo</span>
+                      <span class="px-4 py-2 bg-green-100 text-green-800 text-sm rounded-full font-medium">Internship</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+              <!-- Experience Item 2 -->
+              <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                <div class="flex flex-col lg:flex-row gap-6">
+                  <div class="flex-shrink-0">
+                    <div class="w-20 h-20 bg-white rounded-xl flex items-center justify-center shadow-md">
+                      <img data-src="timeexcel.png" alt="Freelance" class="w-12 h-12 object-contain">
+                    </div>
+                  </div>
+                  <div class="flex-grow">
+                    <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4">
+                      <div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-1">Mobile Developer Intern</h4>
+                        <p class="text-blue-600 font-semibold text-lg mb-2">PT. Time Excelindo</p>
+                        <div class="flex items-center text-gray-600 mb-3">
+                          <i class="fas fa-calendar-alt mr-2"></i>
+                          <span>Mar 2023 - May 2023 · 3 mos</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 leading-relaxed">
+                      Developing custom attendance mobile applications for internal staff. 
+                      Specializing in Flutter development, responsive design, and modern app technologies.
+                    </p>
+                    <div class="mb-4">
+                      <h5 class="font-semibold text-gray-900 mb-3">Key Achievements:</h5>
+                      <ul class="grid md:grid-cols-2 gap-2 text-gray-700">
+                        <li class="flex items-start gap-2">
+                          <i class="fas fa-check-circle text-blue-600 mt-1"></i>
+                          <span>Built mobile applications using Flutter</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                          <i class="fas fa-check-circle text-blue-600 mt-1"></i>
+                          <span>Improved app performance by 20% on average</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                          <i class="fas fa-check-circle text-blue-600 mt-1"></i>
+                          <span>Delivered projects 20% ahead of schedule</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                      <span class="px-4 py-2 bg-blue-100 text-blue-800 text-sm rounded-full font-medium">Flutter</span>
+                      <span class="px-4 py-2 bg-blue-100 text-blue-800 text-sm rounded-full font-medium">Dart</span>
+                      <span class="px-4 py-2 bg-blue-100 text-blue-800 text-sm rounded-full font-medium">Firebase</span>
+                      <span class="px-4 py-2 bg-blue-100 text-blue-800 text-sm rounded-full font-medium">REST APIs</span>
+                      <span class="px-4 py-2 bg-blue-100 text-blue-800 text-sm rounded-full font-medium">Internship</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Organizations Section -->
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 text-center mb-12">Organizations & Leadership</h3>
+          <div class="max-w-5xl mx-auto ">
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+              <!-- Organization Item 1 -->
+               <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+                <div class="text-center">
+                  <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
+                    <img data-src="daskom.png" alt="Daskom" class="w-10 h-10 object-contain">
+                  </div>
+                  <h4 class="text-lg font-bold text-gray-900 mb-2">Human Resource Officer & Practicum Assistant</h4>
+                  <p class="text-green-600 font-semibold mb-3">Basic Computing Laboratory</p>
+                  <div class="flex items-center justify-center text-gray-600 mb-4">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    <span class="text-sm">July 2025 - Present</span>
+                  </div>
+                  <p class="text-gray-700 text-sm mb-4 leading-relaxed">
+                    Teaching basic programming and computer skills to freshmen students.
+                  </p>
+                  <div class="space-y-2 text-left">
+                    <div class="flex items-start gap-2">
+                      <i class="fas fa-star text-green-500 mt-1 text-xs"></i>
+                      <span class="text-gray-700 text-sm">Taught 100+ students</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                      <i class="fas fa-star text-green-500 mt-1 text-xs"></i>
+                      <span class="text-gray-700 text-sm">Organized events for team building</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                      <i class="fas fa-star text-green-500 mt-1 text-xs"></i>
+                      <span class="text-gray-700 text-sm">Created learning materials</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               
+              <!-- Organization Item 2 -->
+              <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+                <div class="text-center">
+                  <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
+                    <img data-src="ieee.png" alt="Coding Club" class="w-10 h-10 object-contain">
+                  </div>
+                  <h4 class="text-lg font-bold text-gray-900 mb-2">Information Technology Officer</h4>
+                  <p class="text-blue-600 font-semibold mb-3">IEEE Telkom University SB</p>
+                  <div class="flex items-center justify-center text-gray-600 mb-4">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    <span class="text-sm">Dec 2024 - Present</span>
+                  </div>
+                  <p class="text-gray-700 text-sm mb-4 leading-relaxed">
+                    Responsible for managing IT-related activities and supporting members with technical issues.
+                  </p>
+                  <div class="space-y-2 text-left">
+                    <div class="flex items-start gap-2">
+                      <i class="fas fa-star text-blue-500 mt-1 text-xs"></i>
+                      <span class="text-gray-700 text-sm">Building APIs with Golang</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                      <i class="fas fa-star text-blue-500 mt-1 text-xs"></i>
+                      <span class="text-gray-700 text-sm">Conducted programming workshops</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Featured Projects🧐</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            A showcase of my recent work and personal projects
+          </p>
+        </div>
+        <h1 class="text-center text-gray-600 text-3xl">Sorry but currently there is no public project I can share to you guys 💔😔</h1>
+        <!-- <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  
+          <div class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+            <div class="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+              <i class="fas fa-desktop w-16 h-16 text-white"></i>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-900 mb-3">IEEE SB Telkom Profile Page</h3>
+              <p class="text-gray-600 mb-4">
+                A personal profile page for IEEE members, showcasing their contributions and publications.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">React</span>
+                <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Node.js</span>
+                <span class="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">MongoDB</span>
+              </div>
+              <div class="flex gap-4">
+                <a href="#" class="text-blue-600 hover:text-blue-800 flex items-center gap-1">
+                  <i class="fas fa-external-link-alt w-4 h-4"></i>
+                  Live Demo
+                </a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 flex items-center gap-1">
+                  <i class="fab fa-github w-4 h-4"></i>
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Get In Touch🤙</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Have a project in mind or want to collaborate? I'd love to hear from you!🚀
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          <!-- Contact Info -->
+          <div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">Let's Connect</h3>
+            <div class="space-y-6">
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <a href="mailto:wildankh01@outlook.com">
+                  <i class="fas fa-envelope text-blue-600"></i>
+                  </a>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">Email</h4>
+                  <p class="text-gray-600">wildankh01@outlook.com</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <a href="tel:+6282119761448">
+                  <i class="fas fa-phone text-blue-600"></i>
+                  </a>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">Phone</h4>
+                  <p class="text-gray-600">+62 821 1976 1448</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <i class="fas fa-map-marker-alt text-blue-600"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">Location</h4>
+                  <p class="text-gray-600">Bandung, Indonesia</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <h4 class="font-semibold text-gray-900 mb-4">Follow Me</h4>
+              <div class="flex gap-4">
+                <a href="https://github.com/ShowMeMyCent" class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
+                  <i class="fab fa-github "></i>
+                </a>
+                <a href="https://www.linkedin.com/in/wildan-khalid-wijaya/" class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
+                  <i class="fab fa-linkedin "></i>
+                </a>
+                <a href="https://www.instagram.com/showmemycent/" class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="bg-white p-8 rounded-lg shadow-sm">
+            <form class="space-y-6">
+              <div>
+                <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your name">
+              </div>
+              
+              <div>
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="your.email@example.com">
+              </div>
+              
+              <div>
+                <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                <input type="text" id="subject" name="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Project discussion">
+              </div>
+              
+              <div>
+                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Tell me about your project..."></textarea>
+              </div>
+              
+              <button type="submit" class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="text-2xl font-bold text-blue-400 mb-4">Wildan Khalid Wijaya</div>
+          <p class="text-gray-400 mb-6">
+            Passionate about crafting seamless user experiences and innovative solutions.
+          </p>
+          <div class="flex justify-center gap-6 mb-8">
+            <a href="https://github.com/ShowMeMyCent" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fab fa-github w-6 h-6"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/wildan-khalid-wijaya/" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fab fa-linkedin w-6 h-6"></i>
+            </a>
+            <a href="https://www.instagram.com/showmemycent/" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fab fa-instagram w-6 h-6"></i>
+            </a>
+            <a href="mailto:wildankh01@outlook.com" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fas fa-envelope w-6 h-6"></i>
+            </a>
+          </div>
+          <div class="border-t border-gray-800 pt-8">
+            <p class="text-gray-400">
+              © 2025 wildan-khalid-wijaya. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+
+      // Resource path configuration
+      const RESOURCE_PATH = './resource/';
+
+      // Helper function to get resource URL
+      function getResourceUrl(filename) {
+        return RESOURCE_PATH + filename;
+      }
+
+      // Automatically replace all <img data-src="..."> with full path
+      document.querySelectorAll('img[data-src]').forEach(img => {
+        img.src = getResourceUrl(img.getAttribute('data-src'));
+      });
+
+      // Font Awesome icons load automatically - no initialization needed
+      console.log('Font Awesome icons loaded automatically');
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Form submission (basic example)
+      const contactForm = document.querySelector('form');
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you for your message! But this feature isn\'t ready yet. I\'ll get back to you soon.');
+        this.reset();
+      });
+
+    </script>
+  </body>
+</html>
