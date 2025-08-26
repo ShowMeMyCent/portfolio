@@ -23,17 +23,6 @@ portfolio/
 └── src/                 # CSS files
     └── output.css       # Tailwind CSS
 ```
-
-## 🚀 How to Use
-
-### Option 1: Use the Modular Version
-1. Rename `index-modular.html` to `index.html`
-2. The components will load automatically via JavaScript
-
-### Option 2: Keep Both Versions
-- Use `index.html` for the original single-file version
-- Use `index-modular.html` for the component-based version
-
 ## 🔧 Component Management
 
 ### Adding New Components
